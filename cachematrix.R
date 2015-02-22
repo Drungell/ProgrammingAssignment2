@@ -14,7 +14,6 @@ inv <- NULL
 
 
 
-
 cacheSolve <- function(x, ...) {
    inv <- x$getinverse()
     if(!is.null(inv)) {
